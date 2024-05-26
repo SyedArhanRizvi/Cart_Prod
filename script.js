@@ -258,6 +258,11 @@ let price4 = ()=>{
     totalSumAndPrice();
 }
 
+// Hiding Cart :
+let hideCart = ()=>{
+    hide.style.display = "none";
+}
+
 
 // Total Count & Total Price ::
 
@@ -269,6 +274,9 @@ let totalSumAndPrice = ()=> {
     let sumOfPrice = (count1 * item1Price) +  (count2 * item2Price) + (count3 * item3Price) + (count4 * item4Price);
     totalProduct.innerHTML = "Total Product : " + sumOfProd;
     totalPrice.innerHTML = "Total Price : " + sumOfPrice;
+    if(sumOfPrice == 0 && sumOfProd == 0) {
+        hideCart();
+    }
     
 }
 

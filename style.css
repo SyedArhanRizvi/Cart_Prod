@@ -86,12 +86,35 @@ background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, F
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    transition: 0.5s;
 }
-
+.main .productSite .product .prCart .incr1:hover {
+    transform: scale(0.8);
+}
+.main .productSite .product .prCart .incr2:hover {
+    transform: scale(0.8);
+}
+.main .productSite .product .prCart .incr3:hover {
+    transform: scale(0.8);
+}
+.main .productSite .product .prCart .incr4:hover {
+    transform: scale(0.8);
+}
 .main .productSite .product .prCart .QNT1{
     font-size: 1.3rem;
 }
-
+.main .productSite .product .prCart .dicr1:hover {
+    transform: scale(0.8);
+}
+.main .productSite .product .prCart .dicr2:hover {
+    transform: scale(0.8);
+}
+.main .productSite .product .prCart .dicr3:hover {
+    transform: scale(0.8);
+}
+.main .productSite .product .prCart .dicr:hover4 {
+    transform: scale(0.8);
+}
 .main .productSite .product .prCart .dicr1{
     height: 40%;
     width: 30%;
@@ -105,6 +128,7 @@ background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, F
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .main .productSite .product .prCart .QNT2{
@@ -117,6 +141,7 @@ background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, F
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    transition: 0.5s;
 }
 .main .productSite .product .prCart .incr3{
     height: 40%;
@@ -124,6 +149,7 @@ background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, F
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .main .productSite .product .prCart .QNT3{
@@ -136,6 +162,7 @@ background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, F
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    transition: 0.5s;
 }
 .main .productSite .product .prCart .incr4{
     height: 40%;
@@ -143,6 +170,7 @@ background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, F
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .main .productSite .product .prCart .QNT4{
@@ -154,6 +182,7 @@ background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, F
     width: 30%;
     border-radius: 10px;
     border: none;
+    transition: 0.5s;
     cursor: pointer;
 }
 
@@ -237,8 +266,8 @@ background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, F
     align-items: center;
     display: none;
     background: #948E99;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2E1437, #948E99);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2E1437, #948E99); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-linear-gradient(to left, #2E1437, #948E99);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #2E1437, #948E99); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 .main .hide{
