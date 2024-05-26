@@ -279,7 +279,3 @@ let totalSumAndPrice = ()=> {
     }
     
 }
-
-
-
-
